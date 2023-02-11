@@ -1,0 +1,13 @@
+Mostra as estatísticas de todos os pacotes instalados:
+$ sudo apt-cache depends
+Mostra as dependências de um pacote (se está ou não instalado):
+$ sudo apt-cache search
+Remove todos os pacotes e seus arquivos de configuração. Para não remover os aquivos de
+configuração, apenas retire o parâmetro –purge :
+$ sudo apt-get -f install
+Verifica as dependências e tenta corrigir os problemas, no caso de uma instalação
+corrompida. apt-config -v
+Mostra a versão do apt e de seus utilitários:
+$ sudo apt-key list
+Lista as chaves gpg, dos repositórios APT:
+$ sudo apt-cache stats
